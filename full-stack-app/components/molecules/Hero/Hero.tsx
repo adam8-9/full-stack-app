@@ -1,5 +1,6 @@
-import { Container,Flex,Heading,Text } from "@chakra-ui/react";
 import React from 'react'
+import { Container,Flex,Heading,Text } from "@chakra-ui/react";
+
 
 export const Hero = ()=>(
     <Flex w='100%' backgroundColor='blue.300'>  

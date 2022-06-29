@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Flex, HStack, Link, Text } from "@chakra-ui/react";
+import { Button, Flex, HStack, Text } from "@chakra-ui/react";
 import { MenuItem } from "../../molecules/MenuItem/MenuItem";
 
 export const TopBar = ()=>(
@@ -15,30 +15,16 @@ export const TopBar = ()=>(
     </Text>
 
     <HStack spacing='16px' alignItems='center'>
-
-      <MenuItem>
-      <Link href='/blog'>
-        <a>Blog</a>
-      </Link>
-      </MenuItem>
-
-      <MenuItem>
-      <Link href='/product'>
-        <a>Product</a>
-      </Link>
-      </MenuItem>
-
-      <MenuItem>
-      <Link href='/pricing'>
-        <a>Pricing</a>
-      </Link>
-      </MenuItem>
-
+      <MenuItem text='Blog' href='/blog' />
+      <MenuItem text='Product' href='/product' />
+      <MenuItem text='Pricing' href='/pricing' />
     </HStack>
+
     <Flex ml='86px'>
       <Button variant='solid' colorScheme='blue'>
         Get started
       </Button>
     </Flex>
+
 </Flex>
 ) 

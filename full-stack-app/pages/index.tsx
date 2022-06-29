@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Container, Flex ,HStack,Text } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Hero } from '../components/molecules/Hero/Hero'
