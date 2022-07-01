@@ -2,7 +2,8 @@ import React from 'react'
 import { Button, Flex, HStack, Text } from "@chakra-ui/react";
 import { MenuItem } from "../../molecules/MenuItem/MenuItem";
 
-export const TopBar = ()=>(
+export const TopBar = ()=>{
+    return(
     <Flex w='100%' justifyContent='space-between' alignItems='center' p='8px 16px'> 
 
     <Text fontSize='36px'
@@ -25,6 +26,6 @@ export const TopBar = ()=>(
         Get started
       </Button>
     </Flex>
-
 </Flex>
-) 
+    )
+}

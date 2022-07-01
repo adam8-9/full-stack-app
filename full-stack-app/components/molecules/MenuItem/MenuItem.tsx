@@ -7,11 +7,13 @@ type MenuItemProps = {
     href:string
 }
 
-export const MenuItem:React.FC<MenuItemProps> = ({text,href})=>(
+export const MenuItem:React.FC<MenuItemProps> = ({text,href})=>{
+   return(
    <Text color='grey' fontSize='18px'>
     <Link href={href}>
-        <a>{text}</a>
+        {text}
     </Link>
    </Text>
-)
+   )
+}
 
